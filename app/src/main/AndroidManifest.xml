@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.majestadev.andersenhw2">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndersenHW2">
+        <activity
+            android:name=".lesson2.HelloCountActivity"
+            android:exported="true"
+            android:parentActivityName=".lesson2.HelloToastV2Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".lesson2.HelloToastV2Activity" />
+        </activity>
+        <activity
+            android:name=".lesson2.HelloToastV2Activity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".lesson1.ScrollingTextActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".lesson1.HelloConstraint"
+            android:exported="true"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".lesson1.HelloToastChallengeActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".lesson1.HelloToastActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".lesson2.TextViewerActivity"
+            android:exported="true"
+            android:parentActivityName=".lesson2.SelectTextActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".lesson2.SelectTextActivity" />
+        </activity>
+        <activity
+            android:name=".lesson2.SelectTextActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".lesson2.ReplyActivity"
+            android:exported="true"
+            android:parentActivityName=".lesson2.SendActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".lesson2.SendActivity" />
+        </activity>
+        <activity
+            android:name=".lesson2.SendActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".HappyBirthdayActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".HelloWorldActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
