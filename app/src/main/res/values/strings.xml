@@ -78,5 +78,18 @@ This volume starts with the first new Beatle song, “Free as a Bird” (based o
     <string name="implicit_intents">Implicit Intents</string>
     <string name="implicit_intents_receiver">Implicit Intents Receiver</string>
     <string name="take_a_picture">Take a Picture</string>
+    <string name="empty">Empty</string>
+    <string name="add_item">Add Item</string>
+    <string name="rice">Rice</string>
+    <string name="apple">Apple</string>
+    <string name="cheese">Cheese</string>
+    <string name="potatoes">Potatoes</string>
+    <string name="carrot">Carrot</string>
+    <string name="milk">Milk</string>
+    <string name="cookies">Cookies</string>
+    <string name="pineapple">Pineapple</string>
+    <string name="tomato">Tomato</string>
+    <string name="juice">Juice</string>
+    <string name="shopping_list">Shopping List</string>
 
 </resources>

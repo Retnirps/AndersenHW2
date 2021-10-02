@@ -10,15 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndersenHW2">
         <activity
+            android:name=".lesson2.ShopActivity"
+            android:exported="true"
+            android:parentActivityName=".lesson2.ShoppingListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".lesson2.ShoppingListActivity" />
+        </activity>
+        <activity
+            android:name=".lesson2.ShoppingListActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".lesson2.ImplicitIntentsReceiverActivity"
             android:exported="true"
             android:parentActivityName=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="http" android:host="developer.android.com" />
+
+                <data
+                    android:host="developer.android.com"
+                    android:scheme="http" />
             </intent-filter>
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />

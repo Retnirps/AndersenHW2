@@ -63,4 +63,8 @@ class MainActivity : AppCompatActivity() {
     fun startImplicitIntentsReceiverActivity(view: View?) {
         startActivity(Intent(this, ImplicitIntentsReceiverActivity::class.java))
     }
+
+    fun startShoppingListActivity(view: View?) {
+        startActivity(Intent(this, ShoppingListActivity::class.java))
+    }
 }

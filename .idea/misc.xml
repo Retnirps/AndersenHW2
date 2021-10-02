@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/stroke.xml" value="0.1" />
         <entry key="app/src/main/res/layout-land/activity_hello_constraint.xml" value="0.25" />
         <entry key="app/src/main/res/layout-land/activity_hello_toast.xml" value="0.13802083333333334" />
         <entry key="app/src/main/res/layout-sw600dp/activity_hello_constraint.xml" value="0.14722222222222223" />
@@ -22,6 +23,8 @@
         <entry key="app/src/main/res/layout/activity_reply.xml" value="0.21145833333333333" />
         <entry key="app/src/main/res/layout/activity_scrolling_text.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_send.xml" value="0.21145833333333333" />
+        <entry key="app/src/main/res/layout/activity_shop.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_shopping_list.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_text_scrolling.xml" value="0.21145833333333333" />
         <entry key="app/src/main/res/layout/activity_text_viewer.xml" value="0.21145833333333333" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
