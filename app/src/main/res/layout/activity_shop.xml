@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lesson2.ShopActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/rice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:onClick="selectProduct"
+                android:text="@string/rice"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/apple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="selectProduct"
+                android:layout_marginTop="8dp"
+                android:text="@string/apple"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/cheese"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="selectProduct"
+                android:layout_marginTop="8dp"
+                android:text="@string/cheese"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/potatoes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="selectProduct"
+                android:layout_marginTop="8dp"
+                android:text="@string/potatoes"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/carrot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="selectProduct"
+                android:layout_marginTop="8dp"
+                android:text="@string/carrot"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/milk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="selectProduct"
+                android:layout_marginTop="8dp"
+                android:text="@string/milk"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/cookies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="selectProduct"
+                android:layout_marginTop="8dp"
+                android:text="@string/cookies"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/pineapple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="selectProduct"
+                android:layout_marginTop="8dp"
+                android:text="@string/pineapple"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/tomato"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="selectProduct"
+                android:layout_marginTop="8dp"
+                android:text="@string/tomato"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/juice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="selectProduct"
+                android:layout_marginTop="8dp"
+                android:text="@string/juice"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
