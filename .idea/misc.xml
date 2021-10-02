@@ -8,6 +8,7 @@
         <entry key="app/src/main/res/layout-land/activity_hello_toast.xml" value="0.13802083333333334" />
         <entry key="app/src/main/res/layout-sw600dp/activity_hello_constraint.xml" value="0.14722222222222223" />
         <entry key="app/src/main/res/layout-sw600dp/activity_hello_toast.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/activity_counter_homework.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_happy_birthday.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_hello_constraint.xml" value="0.14722222222222223" />
         <entry key="app/src/main/res/layout/activity_hello_count.xml" value="0.1735042735042735" />
@@ -15,6 +16,8 @@
         <entry key="app/src/main/res/layout/activity_hello_toast_challenge.xml" value="0.21145833333333333" />
         <entry key="app/src/main/res/layout/activity_hello_toast_v2.xml" value="0.1735042735042735" />
         <entry key="app/src/main/res/layout/activity_hello_world.xml" value="0.12681159420289856" />
+        <entry key="app/src/main/res/layout/activity_implicit_intents.xml" value="0.1735042735042735" />
+        <entry key="app/src/main/res/layout/activity_implicit_intents_receiver.xml" value="0.1735042735042735" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_reply.xml" value="0.21145833333333333" />
         <entry key="app/src/main/res/layout/activity_scrolling_text.xml" value="0.22" />

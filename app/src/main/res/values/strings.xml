@@ -62,4 +62,21 @@ This volume starts with the first new Beatle song, “Free as a Bird” (based o
     <string name="hello">Hello!</string>
     <string name="say_hello">Say Hello</string>
     <string name="hello_toast_v2">Hello Toast V2</string>
+    <string name="this_is_an_edit_text">This is an edit text</string>
+    <string name="count">Count</string>
+    <string name="counter_homework">Counter Homework</string>
+
+    <string name="edittext_uri">http://developer.android.com</string>
+    <string name="button_uri">Open Website</string>
+
+    <string name="edittext_loc">Golden Gate Bridge</string>
+    <string name="button_loc">Open Location</string>
+
+    <string name="edittext_share">\'Twas brillig and the slithy toves</string>
+    <string name="button_share">Share This Text</string>
+    <string name="share_text_with">\"Share this text with: \"</string>
+    <string name="implicit_intents">Implicit Intents</string>
+    <string name="implicit_intents_receiver">Implicit Intents Receiver</string>
+    <string name="take_a_picture">Take a Picture</string>
+
 </resources>

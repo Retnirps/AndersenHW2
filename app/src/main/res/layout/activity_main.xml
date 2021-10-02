@@ -6,108 +6,127 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/helloWorldButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:onClick="startHelloWorldActivity"
-        android:text="@string/hello_world"
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_chainStyle="packed" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <Button
-        android:id="@+id/happyBirthdayButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:onClick="startHappyBirthdayActivity"
-        android:text="@string/happy_birthday"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/helloWorldButton" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/sendReplyActivityButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:onClick="startSendActivity"
-        android:text="@string/send_and_reply"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scrollingTextButton" />
+            <Button
+                android:id="@+id/helloWorldButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:onClick="startHelloWorldActivity"
+                android:text="@string/hello_world" />
 
-    <Button
-        android:id="@+id/selectTextButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:onClick="startSelectTextActivity"
-        android:text="@string/select_text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sendReplyActivityButton" />
+            <Button
+                android:id="@+id/happyBirthdayButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:onClick="startHappyBirthdayActivity"
+                android:text="@string/happy_birthday" />
 
-    <Button
-        android:id="@+id/helloToastButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/hello_toast"
-        android:onClick="startHelloToastActivity"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/happyBirthdayButton" />
+            <Button
+                android:id="@+id/sendReplyActivityButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:onClick="startSendActivity"
+                android:text="@string/send_and_reply" />
 
-    <Button
-        android:id="@+id/helloToastChallengeButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/hello_toast_challenge"
-        android:onClick="startHelloToastChallengeActivity"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/helloToastButton" />
+            <Button
+                android:id="@+id/selectTextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:onClick="startSelectTextActivity"
+                android:text="@string/select_text" />
 
-    <Button
-        android:id="@+id/helloConstraintButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/hello_constraint"
-        android:onClick="startHelloConstraintActivity"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/helloToastChallengeButton" />
+            <Button
+                android:id="@+id/helloToastButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:onClick="startHelloToastActivity"
+                android:text="@string/hello_toast" />
 
-    <Button
-        android:id="@+id/scrollingTextButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/scrolling_text"
-        android:onClick="startScrollingTextActivity"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/helloConstraintButton" />
+            <Button
+                android:id="@+id/helloToastChallengeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:onClick="startHelloToastChallengeActivity"
+                android:text="@string/hello_toast_challenge" />
 
-    <Button
-        android:id="@+id/helloToastV2Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/hello_toast_v2"
-        android:onClick="startHelloToastV2Activity"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/selectTextButton" />
+            <Button
+                android:id="@+id/helloConstraintButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:onClick="startHelloConstraintActivity"
+                android:text="@string/hello_constraint" />
+
+            <Button
+                android:id="@+id/scrollingTextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:onClick="startScrollingTextActivity"
+                android:text="@string/scrolling_text" />
+
+            <Button
+                android:id="@+id/helloToastV2Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:onClick="startHelloToastV2Activity"
+                android:text="@string/hello_toast_v2" />
+
+            <Button
+                android:id="@+id/counterHomeworkButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:onClick="startCounterHomeworkActivity"
+                android:text="@string/counter_homework" />
+
+            <Button
+                android:id="@+id/implicitIntentsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:onClick="startImplicitIntentsActivity"
+                android:text="@string/implicit_intents" />
+
+            <Button
+                android:id="@+id/implicitIntentsReceiverButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:onClick="startImplicitIntentsReceiverActivity"
+                android:text="@string/implicit_intents_receiver" />
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
