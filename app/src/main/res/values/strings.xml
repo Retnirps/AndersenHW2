@@ -91,5 +91,7 @@ This volume starts with the first new Beatle song, “Free as a Bird” (based o
     <string name="tomato">Tomato</string>
     <string name="juice">Juice</string>
     <string name="shopping_list">Shopping List</string>
+    <string name="locate_store">Locate Store</string>
+    <string name="store">Store</string>
 
 </resources>

@@ -1,10 +1,13 @@
 package com.majestadev.andersenhw2.lesson2
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.PersistableBundle
+import android.util.Log
 import android.view.View
+import android.widget.EditText
 import android.widget.TextView
 import com.majestadev.andersenhw2.R
 import org.w3c.dom.Text
@@ -12,10 +15,13 @@ import org.w3c.dom.Text
 class ShoppingListActivity : AppCompatActivity() {
     val TEXT_REQUEST = 1
     private var textInTextViews = Array(10) { "Empty" }
+    private var locationEditText: EditText? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_shopping_list)
+
+        locationEditText = findViewById(R.id.locationEditText)
 
         if (savedInstanceState != null) {
             textInTextViews = savedInstanceState.getStringArray("text_in_text_views") as Array<String>
@@ -84,5 +90,15 @@ class ShoppingListActivity : AppCompatActivity() {
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         outState.putStringArray("text_in_text_views", textInTextViews)
+    }
+
+    fun locateStore(view: View?) {
+        val uri: Uri = Uri.parse("geo:0,0?q=${locationEditText?.text.toString()}")
+        val mapIntent = Intent(Intent.ACTION_VIEW, uri)
+        if (intent.resolveActivity(packageManager) != null) {
+            startActivity(mapIntent)
+        } else {
+            Log.d("ImplicitIntents", "Can't handle this intent!")
+        }
     }
 }
